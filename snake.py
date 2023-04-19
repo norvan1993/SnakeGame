@@ -196,7 +196,7 @@ class SnakeGame:
             return self.absolute_to_relative_map[segment.heading()][absolute_direction]
     
     def add_snake_segment(self, x_pose, y_pose, heading=0):
-        # setting up first segment
+        # add new segment
         snake_segment = turtle.Turtle()
         snake_segment.shape('square')
         snake_segment.color("white")
