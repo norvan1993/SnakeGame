@@ -221,6 +221,9 @@ class SnakeGame:
 
 # make turtle upwards
 snake = SnakeGame()
+
+
+
 snake.win_set_up()
 snake.create_snake(4)
 snake.add_food()
